@@ -15,11 +15,13 @@
   },
   "permissions": [
     "serial",
-    "*://localhost/*"
+    "*://localhost/*",
+    "*://petricity.herokuapp.com/*"
   ],
   "externally_connectable": {
     "matches": [
-      "*://localhost/*"
+      "*://localhost/*",
+      "*://petricity.herokuapp.com/*"
     ]
   }
 }
